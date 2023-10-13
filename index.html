@@ -29,16 +29,24 @@
         <! -- HEADER -- >
 
         <main>
-            <! --- formulaire de recherche --- >
-            <h2> Trouvez votre hébergement pour des vacances de rêve </h2>
-            <p> En plein centre-ville ou en pleine nature </p>
-            <form method="get" action =""> 
-            <p>
-            <label for="recherche">LOGO</label> : <input type="text" name="recherche" id=«recherche» placeholder="Marseille, France">
-            <button>Rechercher</button>
-            </p>
+
+            <! --- SEARCH --- >
+
+        <section class="SEARCH">
+            <header class="search_header">
+            <h2 class="search_header_title Raleway_bold">Trouvez votre hébergement pour des vacances de rêve </h2>
+            <p class="search_header_subtitle">En plein centre-ville ou en pleine nature </p>
+            </header>
+
+            <form class="search_form" method="get" action =""> 
+                <p>
+                    <div class="search_form_icon"><i class="fa-solid fa-location-dot"></i></div>
+                <label for="recherche"></label> : <input type="text" name="recherche" id=«recherche» placeholder="Marseille, France">
+                <button class="search_form_subtinput"> <p class="search_form_subtinput_text">Rechercher</p> </button>
+                </p>
             </form>  
-            <! --- formulaire de recherche --- >
+        </section>
+            <! --- SEARCH --- >
             
             
             <div class="hebergements-and-populaires">
