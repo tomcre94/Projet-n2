@@ -47,7 +47,6 @@ a {
 .headerNav {
     display: flex;
     align-items: center;
-    padding: 15px 15px;
     }
 
 .headerNavLink {
@@ -55,7 +54,7 @@ a {
     height: 19px;
     text-align: center;
     font-weight: 500;
-    border-top: 4px solid transparent;
+    padding-top: 15px ;
 }
 
 .headerNavLink:hover {
