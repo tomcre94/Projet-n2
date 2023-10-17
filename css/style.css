@@ -66,12 +66,17 @@ a {
 }
 
 /***** HEADER *****/
-.section_header_title {
-    font-size: 10px;
+.search_header_title {
+    font-size: 18px;
 }
 
 .search_header_subtitle {
     font-size: 14px;
+}
+
+.search_filters_title { 
+    font-size: 16px;
+    font-weight: 400; 
 }
 
 .section-title {
@@ -128,20 +133,21 @@ a {
     border: 2px solid ;
     border-color:#F2F2F2;
     width: 150px;
-}
+    }
 
 .search_form_searchinput::placeholder {
-    color: black;
+    color: #000000;
     font-size: 15px;
     font-weight: 700;
-    font: Raleways;
+    opacity: 1;
+    font: Raleway ;
     display: flex;
     align-items: center;
     text-align: center;    
     border: 2px;
     }
 
-.search_form_subtinput {
+    .search_form_subtinput {
     background-color: #0065FC; 
     border-radius: 0% 15% 15% 0%;
     border-color:#0065FC ; 
@@ -157,6 +163,52 @@ a {
     width: 125px;
  }
 
+
+ .search_filters {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+ }
+
+ .search_filters_title {
+    font-weight: 700;
+ }
+ .search_filters_filter {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-left: 25px;
+    width: auto;
+    height: 40px;
+    background-color: white;
+    border: 2px solid ;
+    border-color:#D9D9D9;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 4px 19px 4px 19px;
+ }
+.search_filters_filter:hover {
+    background-color:#DEEBFF;
+}
+ .search_result {
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+ }
+
+.search_result_icon {
+    border: 1px solid ;
+    border-color:#D9D9D9;
+    border-radius: 50px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .search_result_text {
+    margin-left: 15px; 
+ }
 /***** SEARCH ****/
 
 /****** Hebergements And Populaires ***********/
