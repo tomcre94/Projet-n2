@@ -163,9 +163,9 @@ a {
     width: 125px;
  }
 
-
  .search_filters {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 25px;
     align-items: center;
  }
@@ -175,17 +175,17 @@ a {
  }
  .search_filters_filter {
     display: flex;
-    align-items:center;
     justify-content:space-evenly;
+    align-items: center;
     margin-left: 25px;
-    width: auto;
+    min-width: 110px;
     height: 40px;
     background-color: white;
     border: 2px solid ;
     border-color:#D9D9D9;
     border-radius: 25px;
     font-weight: 700;
-    padding: 4px 19px 4px 19px;
+    padding: 0px 10px 0px 10px;
  }
 .search_filters_filter:hover {
     background-color:#DEEBFF;
