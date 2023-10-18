@@ -227,6 +227,19 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    }
+
+.hosting_main_cards{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.hebergements img {
+    Width: 250px;
+    Height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    Border: 5px;
 }
 
 /****** Populaires ***********/
