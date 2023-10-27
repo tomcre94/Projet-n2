@@ -66,6 +66,8 @@ a {
 }
 
 /***** HEADER *****/
+
+
 .search_header_title {
     font-size: 18px;
 }
@@ -175,10 +177,9 @@ a {
  }
  .search_filters_filter {
     display: flex;
-    justify-content:space-evenly;
     align-items: center;
     margin-left: 25px;
-    min-width: 110px;
+    min-width: 100px;
     height: 40px;
     background-color: white;
     border: 2px solid ;
@@ -186,7 +187,14 @@ a {
     border-radius: 25px;
     font-weight: 700;
     padding: 0px 10px 0px 10px;
+
+    & p{
+    margin-left: 5px;
+    text-align: center;
+    width:100%;        
+    }
  }
+
 .search_filters_filter:hover {
     background-color:#DEEBFF;
 }
@@ -211,7 +219,7 @@ a {
  }
 /***** SEARCH ****/
 
-/****** Hebergements And Populaires ***********/
+/****** HOSTING AND POPULAR ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -224,14 +232,14 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/****** HOSTING ***********/
 .hebergements {
     width: 65%;
     }
 
 .hosting_main_cards{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 
@@ -240,6 +248,7 @@ a {
     Height: 124px;
     border-radius: 20px 20px 0px 0px;
     Border: 5px;
+    object-fit: cover; 
 }
 
 /****** Populaires ***********/
@@ -287,6 +296,64 @@ a {
     margin-bottom: 5px;
 }
 
+/* ACTIVITY */
+
+.activity_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.activity_card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    }
+
+.activity_card_large {
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    }
+
+.carte-title-activity {margin-left: 20px;}
+
+.activity_card_img {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover; 
+}
+
+/* ACTIVITY */
+    
+/* FOOTER */
+    
+.footer {
+    margin-top: auto;
+    padding-top: 10px;
+    background-color:#F2F2F2;
+}
+    
+.footer_containers {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;}
+
+.footer_container {
+    margin-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+    font-size: 14px;
+}
+
+.footer_container_text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
 
 
 
