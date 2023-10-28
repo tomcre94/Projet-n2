@@ -223,24 +223,26 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 /****** HOSTING ***********/
 .hebergements {
     width: 65%;
+    margin: 5px;
     }
 
 .hosting_main_cards{
     display: flex;
-    justify-content:space-evenly;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .hebergements img {
@@ -251,20 +253,55 @@ a {
     object-fit: cover; 
 }
 
+.hebergements .card-content {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 8px;
+    column-gap: 2px;}
+
+.hebergements .card {
+    margin: 10px;
+    Height: 210px;
+    }
+
+.hosting_main_header_title {
+ font-size: large;
+ font-weight: 700;
+ padding-left: 8px;
+}
+
+.hosting_main_p_text  {
+    font-weight: 600;
+    font-size: medium;
+    padding-left: 8px ;
+    display: flex;
+}
+
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 33%;
 }
 
 .populaires-title {
+    margin-top: 15px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.populaires-title .section-title{
+    padding-left: 10px;
+    font-size:large;
+    font-weight: 700;
+}
 
+.populaires-title .fa-solid {margin-right: 5%;}
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .populaires-cards img {
@@ -298,6 +335,10 @@ a {
 
 /* ACTIVITY */
 
+.activity {
+    margin : 30px;
+}
+
 .activity_cards {
     display: flex;
     flex-direction: row;
@@ -329,28 +370,35 @@ a {
 /* FOOTER */
     
 .footer {
-    margin-top: auto;
-    padding-top: 10px;
+    margin-top: 15px;
     background-color:#F2F2F2;
 }
     
 .footer_containers {
     display: flex;
     flex-direction: row;
-    gap: 100px;}
+    justify-content: space-between;
+    height: fit-content;
+    margin-right: 350px;
+}
 
 .footer_container {
-    margin-left: 30px;
-    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-    font-family: Raleway;
-    font-size: 14px;
+    }
+
+.footer_container_title {
+    font-size: medium;
 }
 
 .footer_container_text {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    font-family: Raleway;
+    font-size: 14px;
 }
 
 /* FOOTER */
