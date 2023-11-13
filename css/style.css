@@ -359,23 +359,22 @@ a {
 /* ACTIVITY */
 
 .activity {
-    margin : 30px;
     width: 100%;
 }
 
 .activity_header_title{
     font-size: 21px;
+    margin-left: 40px;
 }
 
 .activity_cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .activity_card_large{
-    display: flex;
-    justify-content: space-between;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
@@ -384,7 +383,6 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-right: 15px;
     }
 
 .carte-title-activity {margin-left: 20px;}
