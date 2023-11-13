@@ -34,7 +34,7 @@
 
         <section class="search">
             <header class="search_header">
-            <h2 class="section_header_title">Trouvez votre hébergement pour des vacances de rêve </h2>
+            <h2 class="search_header_title">Trouvez votre hébergement pour des vacances de rêve </h2>
             <p class="search_header_subtitle">En plein centre-ville ou en pleine nature </p>
             </header>
 
@@ -52,7 +52,8 @@
             <! --- FILTERS --- >
                 <div class="search_filters">
                     <p class="search_filters_title">Filtres</p>
-                
+                    <div class="search_filters_filters">
+                        <div class="search_filters_filters_a">
                     <button class="search_filters_filter">
                         <i class="fa-solid fa-money-bill-wave search_filters_filter_icon"></i>
                         <p class="search_filters_filter_title">Économique</p>
@@ -61,6 +62,8 @@
                         <i class="fa-solid fa-person search_filters_filter_icon"></i>
                         <p class="search_filters_filter_title">Familial</p>
                     </button>
+                </div>
+                <div class="search_filters_filters_b">
                     <button class="search_filters_filter">
                         <i class="fa-solid fa-heart search_filters_filter_icon"></i>
                         <p class="search_filters_filter_title">Romantique</p>
@@ -69,6 +72,8 @@
                         <i class="fa-solid fa-fire search_filters_filter_icon"></i>
                         <p class="search_filters_filter_title">Nos pépites</p>
                     </button>
+                </div>
+                    </div>
                 </div>
 
                 <div class="search_result">
@@ -208,12 +213,12 @@
                                 </div>
                             </article>
                         </a>
-                        <p class="hosting_main_p">
-                            <h2 class="hosting_main_p_text">Afficher plus</h2>
-                        </p>
                     </div>
-
+                    <p class="hosting_main_p">
+                        <h2 class="hosting_main_p_text">Afficher plus</h2>
+                    </p>                   
                 </section>
+
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -221,7 +226,7 @@
                     </div>
                     <div class="populaires-cards">
                         <a href="#">
-                            <article class="card">
+                            <article class="card cannebiere">
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
@@ -239,6 +244,27 @@
                                 </div>
                             </article>
                         </a>
+
+                        <a href="#">
+                            <article class="card soleilhidden">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -299,9 +325,9 @@
 
                 <a href="#" class="activity_card activity_card_large">
                     <article class="activity_card">
-                        <img class="activity_card_img" src="images/activites/paul-hermann.jpg" alt="Le Fort de Pomègue.">
+                        <img class="activity_card_img" src="images/activites/paul-hermann.jpg" alt="Le Fort de Pomègues.">
                         <div class="card-content">
-                        <h3 class="card-title carte-title-activity">Fort de Pomègue</h3>
+                        <h3 class="card-title carte-title-activity">Fort de Pomègues</h3>
                         </div>
                     </article>
                 </a>
