@@ -359,24 +359,27 @@ a {
 /* ACTIVITY */
 
 .activity {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .activity_header_title{
     font-size: 21px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .activity_cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .activity_card_large{
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    width: 90%;
+    margin-right: 15px;
 }
 
 .activity_card {
@@ -388,7 +391,7 @@ a {
 .carte-title-activity {margin-left: 20px;}
 
 .activity_card_img {
-    width: 297px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover; 
@@ -400,6 +403,8 @@ a {
     
 .footer {
     margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
     background-color:#F2F2F2;
 }
     
