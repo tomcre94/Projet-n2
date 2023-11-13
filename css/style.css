@@ -68,7 +68,6 @@ a {
 
 /***** HEADER *****/
 
-
 .search_header_title {
     font-size: 22px;
     font-weight: 700;
@@ -113,7 +112,9 @@ a {
 
 /***** SEARCH ****/
 
-
+.search{
+    margin-left: 50px;
+}
 .search_form {
     display: flex;
     height: 50px;
@@ -244,6 +245,8 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .hebergements-and-populaires section {
