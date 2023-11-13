@@ -36,15 +36,14 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 20px;
-    padding-block-end: 30px;
+    margin-bottom: 50px;
 }
 
 .headerImg {
     width: 61.09px;
     height: 19px;
-    padding-top: 15px;
+    padding-top: 35px;
+    margin-left: 50px;
 }
 
 .headerNav {
@@ -57,13 +56,14 @@ a {
     height: 15px;
     text-align: center;
     font-weight: 500;
-    margin-top: 15px;
+    margin-left: 35px;
 }
 
 .headerNavLink:hover {
     color: #0065FC;
     border-top: solid;
-    padding-top: 15px;
+    padding-top: 35px;
+    width: max-content;
 }
 
 /***** HEADER *****/
@@ -264,12 +264,28 @@ a {
 
 .hosting_main_cards{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.hosting_main_cards_a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card_amina {
+    width: 150%;
+}
+.hosting_main_cards_b {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .hebergements img {
-    Width: 250px;
+    Width: 100%;
     Height: 124px;
     border-radius: 20px 20px 0px 0px;
     Border: 5px;
@@ -280,20 +296,31 @@ a {
     padding-left: 10px;
     display: flex;
     flex-direction: column;
-    line-height: 8px;
-    column-gap: 2px;}
+    flex-wrap: nowrap;
+    line-height: 7px;
+    column-gap: 2px;
+}
 
-.hebergements .card {
+.hosting_main_cards_a .card {
     margin: 10px;
-    Height: 210px;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
     }
 
+.hosting_main_cards .card-title {
+    font-size: 90%;
+}
+
+.hosting_main_cards .card-subtitle {
+    font-size: 85%;
+}
 .hosting_main_header_title {
  font-size: 23px;
  font-weight: 600;
  padding-left: 30px;
+ flex-wrap: nowrap;
 }
-
 
 .hosting_main_p_text  {
     font-weight: 550;
@@ -301,6 +328,7 @@ a {
     padding-left: 30px ;
     display: flex;
     justify-content: left;
+    flex-wrap: nowrap;
 }
 
 /****** Populaires ***********/
