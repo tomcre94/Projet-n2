@@ -577,7 +577,7 @@ a {
     }
 
     .headerNav{
-        padding-top: 10px;
+        padding-top: 20px;
         padding-right: 0;
         width: 100%;
         display: flex;
@@ -595,9 +595,17 @@ a {
         color: #0065FC;
         border-bottom: solid;
     }
+
+    .headerImg {
+        margin-left: 0;}
    
+
+    
+    
+    
+    /*** SEARCH ***/
+
     .search {
-        padding-top: 60px;
         margin: 25px;
     }
 
@@ -657,20 +665,35 @@ a {
         width: 300px;
     }
 
+
+
+    /**** HOSTING AND POPULARS ***/
+
     .hebergements-and-populaires {
-        display: flexbox;
+        display: flex;
         flex-direction: column-reverse;
         padding: 0;
         width: 100%;
+        margin-top: 550px;
+        padding-top:150px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .hebergements {
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         background-color:white ;
         margin: 0;
     }
-
+    .hosting_main_cards_a{
+        display: flex;
+        flex-direction: column;
+    }
+    .hosting_main_cards_b {
+        display: flex;
+        flex-direction: column;
+    }
     .hebergements img {
         Width: 100%;    
     }
@@ -688,20 +711,56 @@ a {
     }
 
     .populaires {
-        margin-top: 25px;
+        margin-top: 150px;
         width: 100%;;
     }
+
+    .card_port {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
+    .card_amina {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
+    .card_mouettes {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
+    .card_mer {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
+    .card_canebiere {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
+    .card_panier {
+        box-sizing: content-box;
+        width: 90%;
+    }
+
     .populaires-cards {
         width: 100%;
         display: flexbox;
         flex-direction: column;
     }
 
+    .populaires-cards a {
+        width: 90%;
+      }
+
     .populaires-cards .card {
         display: flex;
         margin-top: 15px;
-        width: 320px;
-    }
+        width: 100%;
+        margin-left: 5%;
+      }
       
     .populaires-cards .card.cannebiere {
         display:none;
@@ -711,8 +770,15 @@ a {
         display: flex;
     }
 
+
+
+
+
+    /*** Activity ***/
+
     .activity {
         margin : 20px;
+        padding-top: 750px;
     }
     .activity_cards {
         width: 100%;
@@ -723,17 +789,30 @@ a {
     
     .activity_cards .activity_card_large{
         margin-bottom: 15px;
+        margin-left: 5%;
     }
     
     .activity_cards .activity_card_img {
         height: 150px;
         width: 100%;
     }
+
+
+
+
+    /*** FOOTER ***/
+    .footer {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     
     .footer_containers {
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-right: 0;
+        padding: 0;
     }
     
     .footer_container_title{
