@@ -20,11 +20,16 @@
         
         <! --- HEADER --- > 
         <header class="header">
-            <img class="headerImg" src="./images/logo/Booki.png" alt="Booki" /> 
-            <nav class="headerNav">
-              <a class="headerNavLink Raleway_bold" href="#hosting" >Hébergements</a>
-              <a class="headerNavLink Raleway_bold" href="#activity" >Activités</a>
-            </nav>
+            <img class="headerImg" src="./images/logo/Booki.png" alt="Booki" />
+                <div class="headernavclass">
+                    <nav class="headerNav">
+                    <a class="headerNavLink" href="#hosting" >Hébergements</a>
+                    </nav>
+
+                    <nav class="headerNav">
+                        <a class="headerNavLink" href="#activity" >Activités</a>
+                    </nav>
+                </div> 
         </header>
         <! --- HEADER --- >
 
@@ -39,14 +44,12 @@
             </header>
 
             <form class="search_form" method="get" action =""> 
-                <p>
                 <div class="search_form_icon"><i class="fa-solid fa-location-dot"></i></div>
                 <input class="search_form_searchinput" type="text" placeholder="Marseille, France" />
                 <button class="search_form_subtinput"> 
                     <p class="search_form_subtinput_text">Rechercher</p>
                     <i class="fa-solid fa-magnifying-glass search_text_icon"></i> 
                 </button>
-                </p>
             </form> 
 
             <! --- FILTERS --- >
@@ -54,25 +57,25 @@
                     <p class="search_filters_title">Filtres</p>
                     <div class="search_filters_filters">
                         <div class="search_filters_filters_a">
-                    <button class="search_filters_filter">
-                        <i class="fa-solid fa-money-bill-wave search_filters_filter_icon"></i>
-                        <p class="search_filters_filter_title">Économique</p>
-                    </button>
-                    <button class="search_filters_filter">
-                        <i class="fa-solid fa-person search_filters_filter_icon"></i>
-                        <p class="search_filters_filter_title">Familial</p>
-                    </button>
-                </div>
-                <div class="search_filters_filters_b">
-                    <button class="search_filters_filter">
-                        <i class="fa-solid fa-heart search_filters_filter_icon"></i>
-                        <p class="search_filters_filter_title">Romantique</p>
-                    </button>
-                    <button class="search_filters_filter">
-                        <i class="fa-solid fa-fire search_filters_filter_icon"></i>
-                        <p class="search_filters_filter_title">Nos pépites</p>
-                    </button>
-                </div>
+                            <button class="search_filters_filter">
+                                <i class="fa-solid fa-money-bill-wave search_filters_filter_icon"></i>
+                                <p class="search_filters_filter_title">Économique</p>
+                            </button>
+                            <button class="search_filters_filter">
+                                <i class="fa-solid fa-person search_filters_filter_icon"></i>
+                                <p class="search_filters_filter_title">Familial</p>
+                            </button>
+                        </div>
+                        <div class="search_filters_filters_b">
+                            <button class="search_filters_filter">
+                                <i class="fa-solid fa-heart search_filters_filter_icon"></i>
+                                <p class="search_filters_filter_title">Romantique</p>
+                            </button>
+                            <button class="search_filters_filter">
+                                <i class="fa-solid fa-fire search_filters_filter_icon"></i>
+                                <p class="search_filters_filter_title">Nos pépites</p>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -234,28 +237,8 @@
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Auberge la Cannebière</h3>
-                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
-                                    </div>
-                                    <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-
-                        <a href="#">
-                            <article class="card soleilhidden">
-                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                <div class="card-content">
-                                    <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
