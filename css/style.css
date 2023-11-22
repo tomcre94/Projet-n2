@@ -62,8 +62,8 @@ a {
 .headerNavLink {
     height: 15px;
     font-weight: 500;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
     }
 
 .headerNav:hover { border-top: solid; color:#0065FC}
@@ -248,7 +248,6 @@ a {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    height: 600px;
 }
 
 .hebergements-and-populaires section {
@@ -270,7 +269,7 @@ a {
 .hosting_main_cards{
     display: flex;
     flex-direction: column;
-}
+    }
 
 .hosting_main_cards_a {
     display: flex;
@@ -328,6 +327,7 @@ a {
     flex-wrap: nowrap;
     line-height: 7px;
     column-gap: 2px;
+    margin-bottom: 10px;
 }
 
 .hosting_main_cards .card-title {
@@ -498,9 +498,7 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .headerImg {
-        padding-left: 25px;
-    }
+    
     .headerNav{
         padding-right: 25px;
     }
@@ -516,12 +514,9 @@ a {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        padding-top: 150px;
-        padding-bottom: 200px;
         display: flexbox;
         flex-direction: column;
         justify-content: center;
-       
     }
 
     .hebergements {
@@ -570,6 +565,11 @@ a {
         margin-bottom: 0;
     }
 
+    .headernavclass{
+        width: 100%;
+        margin-top: 15px;
+    }
+
     .headerNav{
         padding-top: 20px;
         padding-right: 0;
@@ -580,13 +580,12 @@ a {
         border-bottom: solid rgb(242, 242, 242);
     }
 
-    .headernavclass{
-        width: 100%;
-        margin-top: 15px;
-    }
-    
     .headerNavLink{
         padding-bottom: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .headerNav:hover {
@@ -596,6 +595,8 @@ a {
     }
 
     .headerImg {
+        width: 70px;
+        height: 25px;
         margin-left: 0;}
    
     /*** SEARCH ***/
@@ -612,29 +613,30 @@ a {
     }
 
     .search_header_title {
-        font-size: 2em;
-        font-weight: 600;
+        font-size: 22px;
+        font-weight: 700;
         margin-top: 10px;
         margin-bottom: 5px;
     }
     .search_header_subtitle {
-        font-size: 1.8em;
+        font-size: 16px;
+        font-weight: 400;
         margin-top: 10px;
     }
 
     .search_form{
-        height : 69px;
+        height : 49px;
     }
     .search_form_icon {
         width: 13%;
-        height: 89px;
+        height: 49px;
     }
-    .fa-location-dot { font-size: 2em; }
-    .fa-magnifying-glass {font-size: 2em;}
+    .fa-location-dot { font-size: 17px; }
+    .fa-magnifying-glass {font-size: 17px;}
 
     .search_form_searchinput {
         width: 70%;
-        height: 83px;
+        height: 43px;
     }
 
     .search_header {
@@ -642,9 +644,8 @@ a {
     }
 
     .search_form_searchinput::placeholder {
-        font-size: 1.8em;
+        font-size: 18px;
         font-weight: 700;
-        justify-content: left;
         }
 
     .search_text_icon {
@@ -661,7 +662,7 @@ a {
         border-radius: 15%;
         border-color:#0065FC ; 
         Width: 13%;
-        Height: 89px;
+        Height: 49px;
     }
 
     .search_filters {
@@ -670,9 +671,10 @@ a {
         align-items: flex-start;
         }
     .search_filters_title {
-        font-size: 1.6rem;
+        font-size: 18px;
+        font-weight: 700;
     }
-
+    
     .search_filters_filters {
         display:flex;
         flex-direction:column;
@@ -681,25 +683,33 @@ a {
         width: 100%;
         }
 
-
     .search_filters_filters .search_filters_filter{
-        height: 5em;
-        width: 100%;
+        height: 49px;
+        width: 80%;
         margin-bottom: 15px;
+        margin-left: 0;
     }
-    
+
+    .search_filters_filter {
+        margin : 10px;
+    }
    .search_filters_filters .search_filters_filter_title {
-        font-size: 1.6em;
+        font-size: 14px;
         font-weight: 700;
         flex-wrap: nowrap;
         }
-    .search_filters_filter_icon {
-        font-size: 2.5em;
+        .search_filters_filter {
+            & p {
+              margin-left: 0;}}
+    
+              .search_filters_filter_icon {
+        font-size: 1.5em;
     }
+
     .search_result {
         width: 90%;
     }
-    .search_result_text{ font-size: 1.4rem; flex-wrap: wrap;}
+    .search_result_text{ font-size: 16px; font-weight: 400; flex-wrap: wrap;}
 
     /**** HOSTING AND POPULARS ***/
 
@@ -708,8 +718,6 @@ a {
         flex-direction: column-reverse;
         padding: 0;
         width: 100%;
-        margin-top: 550px;
-        padding-top:150px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -755,7 +763,8 @@ a {
     }
 
     .populaires {
-        width: 100%;;
+        width: 100%;
+        margin-top : 0;
     }
 
     .card_port {
@@ -809,7 +818,6 @@ a {
 
     .activity {
         margin : 20px;
-        padding-top: 750px;
     }
     .activity_cards {
         width: 100%;
