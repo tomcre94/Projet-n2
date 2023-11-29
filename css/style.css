@@ -487,6 +487,18 @@ a {
         margin-right: 5%;
     }
 
+    .search_filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start;
+    }
+
+    .search_filters_filter{
+        margin-right: 25px;
+        margin-left: 0;
+    }
+
     .hosting-and-popular {
         box-sizing: content-box;
         width: 90%;
